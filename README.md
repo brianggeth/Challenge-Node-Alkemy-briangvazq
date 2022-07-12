@@ -4,6 +4,8 @@ Desarrollar una API para explorar el mundo de Disney, la cual permitirá conocer
 
 Pueden ver los distintos endpoints en postmanTest.json
 
+Pueden ver una demo en https://alkemy-node-briangvazq.herokuapp.com/
+
 Para su correcto funcionamiento deberan crear un archivo .env con los siguientes campos:
 
 DB_USER= (tu usuario de la base de datos)
