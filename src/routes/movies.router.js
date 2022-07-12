@@ -9,7 +9,7 @@ const {
   getMovieDetails,
 } = require('../controllers/movie.controller.js');
 
-router.get('/:id', getMovieDetails);
+router.get('/detail/:id', getMovieDetails);
 router.post('/', createMovie);
 router.put('/', updateMovie);
 router.delete('/', removeMovie);

@@ -9,7 +9,7 @@ const {
   getCharacterDetails,
 } = require('../controllers/character.controller.js');
 
-router.get('/:id', getCharacterDetails);
+router.get('/detail/:id', getCharacterDetails);
 router.post('/', createCharacter);
 router.put('/', updateCharacter);
 router.delete('/', removeCharacter);
